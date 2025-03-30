@@ -1,1 +1,1 @@
-# Learn-Code-With-AI
+# Learn-to-Code-With-Nebius
