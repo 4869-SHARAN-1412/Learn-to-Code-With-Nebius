@@ -1,0 +1,2135 @@
+[
+    {
+        "type": "text2text",
+        "name": "DeepSeek-V3-0324",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+        "flavors": [
+            {
+                "model_id": "deepseek-ai/DeepSeek-V3-0324",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.5,
+                "output_price_per_million_tokens": 1.5,
+                "input_tps": 35,
+                "tokens_per_second": 25,
+                "max_model_len": 163840,
+                "model_type": "text2text",
+                "model_name": "DeepSeek-V3-0324"
+            },
+            {
+                "model_id": "deepseek-ai/DeepSeek-V3-0324-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 2,
+                "output_price_per_million_tokens": 6,
+                "input_tps": 100,
+                "tokens_per_second": 50,
+                "max_model_len": 163840,
+                "model_type": "text2text",
+                "model_name": "DeepSeek-V3-0324 (fast)"
+            }
+        ],
+        "vendor": "deepseek",
+        "quality": 87,
+        "context_window_k": 128,
+        "size_b": 685,
+        "tags": [
+            "128K context"
+        ],
+        "use_cases": [
+            "code"
+        ],
+        "license": {
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL",
+            "type": "",
+            "name": "DeepSeek License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "DeepSeek-V3",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+        "flavors": [
+            {
+                "model_id": "deepseek-ai/DeepSeek-V3",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.5,
+                "output_price_per_million_tokens": 1.5,
+                "input_tps": 35,
+                "tokens_per_second": 25,
+                "max_model_len": 163840,
+                "model_type": "text2text",
+                "model_name": "DeepSeek-V3"
+            }
+        ],
+        "vendor": "deepseek",
+        "quality": 87,
+        "context_window_k": 128,
+        "size_b": 685,
+        "tags": [
+            "128K context"
+        ],
+        "use_cases": [
+            "code"
+        ],
+        "license": {
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL",
+            "type": "",
+            "name": "DeepSeek License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "DeepSeek-R1",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+        "flavors": [
+            {
+                "model_id": "deepseek-ai/DeepSeek-R1",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.8,
+                "output_price_per_million_tokens": 2.4,
+                "input_tps": 35,
+                "tokens_per_second": 15,
+                "max_model_len": 163840,
+                "model_type": "text2text",
+                "model_name": "DeepSeek-R1"
+            },
+            {
+                "model_id": "deepseek-ai/DeepSeek-R1-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 2,
+                "output_price_per_million_tokens": 6,
+                "input_tps": 100,
+                "tokens_per_second": 40,
+                "max_model_len": 163840,
+                "model_type": "text2text",
+                "model_name": "DeepSeek-R1 (fast)"
+            }
+        ],
+        "vendor": "deepseek",
+        "quality": 91,
+        "context_window_k": 164,
+        "size_b": 685,
+        "tags": [
+            "164K context"
+        ],
+        "use_cases": [
+            "code"
+        ],
+        "license": {
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1/blob/main/LICENSE",
+            "type": "",
+            "name": "MIT License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Llama-3.3-70B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+        "flavors": [
+            {
+                "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.13,
+                "output_price_per_million_tokens": 0.4,
+                "tokens_per_second": 25,
+                "input_tps": 65.59,
+                "supports_lora_adapters": true,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Llama-3.3-70B-Instruct"
+            },
+            {
+                "model_id": "meta-llama/Llama-3.3-70B-Instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.25,
+                "output_price_per_million_tokens": 0.75,
+                "tokens_per_second": 60,
+                "input_tps": 169.6666667,
+                "supports_lora_adapters": true,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Llama-3.3-70B-Instruct (fast)"
+            }
+        ],
+        "vendor": "meta",
+        "quality": 86,
+        "context_window_k": 128,
+        "size_b": 70.6,
+        "tags": [
+            "128K context"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "code",
+            "function_calling"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE",
+            "type": "",
+            "name": "Llama 3.3 License"
+        },
+        "fine_tune": {
+            "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+            "training_price_per_million_tokens": 2.8
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Meta-Llama-3.1-70B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "flavors": [
+            {
+                "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.25,
+                "output_price_per_million_tokens": 0.75,
+                "tokens_per_second": 60,
+                "input_tps": 185.8333333,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Meta-Llama-3.1-70B-Instruct (fast)"
+            },
+            {
+                "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.13,
+                "output_price_per_million_tokens": 0.4,
+                "tokens_per_second": 25,
+                "input_tps": 71.73,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Meta-Llama-3.1-70B-Instruct"
+            }
+        ],
+        "vendor": "meta",
+        "quality": 86,
+        "context_window_k": 128,
+        "size_b": 70.6,
+        "tags": [
+            "128K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "code",
+            "function_calling"
+        ],
+        "fine_tune": {
+            "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+            "training_price_per_million_tokens": 2.8
+        },
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
+            "type": "",
+            "name": "Llama 3.1 License"
+        }
+    },
+    {
+        "type": "image2text",
+        "name": "Gemma-3-27b-it",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/google/gemma-3-27b-it",
+        "flavors": [
+            {
+                "model_id": "google/gemma-3-27b-it-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.2,
+                "output_price_per_million_tokens": 0.6,
+                "tokens_per_second": 55,
+                "input_tps": 249.6875,
+                "max_model_len": 131072,
+                "model_type": "image2text",
+                "model_name": "Gemma-3-27b-it (fast)"
+            },
+            {
+                "model_id": "google/gemma-3-27b-it",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.1,
+                "output_price_per_million_tokens": 0.3,
+                "tokens_per_second": 20,
+                "input_tps": 72.21875,
+                "max_model_len": 131072,
+                "model_type": "image2text",
+                "model_name": "Gemma-3-27b-it"
+            }
+        ],
+        "vendor": "google",
+        "quality": 79,
+        "context_window_k": 8,
+        "size_b": 27,
+        "tags": [
+            "131K context"
+        ],
+        "use_cases": [],
+        "policy_url": "https://ai.google.dev/gemma/terms",
+        "license": {
+            "url": "https://ai.google.dev/gemma/terms",
+            "type": "",
+            "name": "Gemma License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "flavors": [
+            {
+                "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.03,
+                "output_price_per_million_tokens": 0.09,
+                "tokens_per_second": 155,
+                "input_tps": 477.4375,
+                "supports_lora_adapters": true,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Meta-Llama-3.1-8B-Instruct (fast)"
+            },
+            {
+                "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.02,
+                "output_price_per_million_tokens": 0.06,
+                "tokens_per_second": 30,
+                "input_tps": 137.8828125,
+                "supports_lora_adapters": true,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Meta-Llama-3.1-8B-Instruct"
+            }
+        ],
+        "vendor": "meta",
+        "quality": 73,
+        "context_window_k": 128,
+        "size_b": 8.03,
+        "tags": [
+            "128K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "fast_and_cost_efficient",
+            "function_calling"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
+            "type": "",
+            "name": "Llama 3.1 License"
+        },
+        "fine_tune": {
+            "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+            "training_price_per_million_tokens": 0.4
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Meta-Llama-3.1-405B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct",
+        "flavors": [
+            {
+                "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 1.0,
+                "output_price_per_million_tokens": 3.0,
+                "tokens_per_second": 20,
+                "input_tps": 48.5625,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Meta-Llama-3.1-405B-Instruct"
+            }
+        ],
+        "vendor": "meta",
+        "quality": 89,
+        "context_window_k": 128,
+        "size_b": 406,
+        "tags": [
+            "128K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "code",
+            "function_calling",
+            "complex_writing"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
+            "type": "",
+            "name": "Llama 3.1 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Mistral-Nemo-Instruct-2407",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407",
+        "flavors": [
+            {
+                "model_id": "mistralai/Mistral-Nemo-Instruct-2407-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.08,
+                "output_price_per_million_tokens": 0.24,
+                "tokens_per_second": 100,
+                "input_tps": 224.875,
+                "max_model_len": 128000,
+                "model_type": "text2text",
+                "model_name": "Mistral-Nemo-Instruct-2407 (fast)"
+            },
+            {
+                "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.04,
+                "output_price_per_million_tokens": 0.12,
+                "tokens_per_second": 30,
+                "input_tps": 45.46875,
+                "max_model_len": 128000,
+                "model_type": "text2text",
+                "model_name": "Mistral-Nemo-Instruct-2407"
+            }
+        ],
+        "vendor": "mistralai",
+        "quality": 68,
+        "context_window_k": 128,
+        "size_b": 12.2,
+        "tags": [
+            "128K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "fast_and_cost_efficient"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Mixtral-8x7B-Instruct-v0.1",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+        "flavors": [
+            {
+                "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.15,
+                "output_price_per_million_tokens": 0.45,
+                "tokens_per_second": 43,
+                "input_tps": 151.86,
+                "max_model_len": 32768,
+                "model_type": "text2text",
+                "model_name": "Mixtral-8x7B-Instruct-v0.1 (fast)"
+            },
+            {
+                "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.08,
+                "output_price_per_million_tokens": 0.24,
+                "tokens_per_second": 25,
+                "input_tps": 87.86,
+                "max_model_len": 32768,
+                "model_type": "text2text",
+                "model_name": "Mixtral-8x7B-Instruct-v0.1"
+            }
+        ],
+        "vendor": "mistralai",
+        "quality": 71,
+        "context_window_k": 32,
+        "size_b": 46.7,
+        "tags": [
+            "32K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "fast_and_cost_efficient"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Mixtral-8x22B-Instruct-v0.1",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1",
+        "flavors": [
+            {
+                "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.7,
+                "output_price_per_million_tokens": 2.1,
+                "tokens_per_second": 55,
+                "input_tps": 101.0,
+                "max_model_len": 65536,
+                "model_type": "text2text",
+                "model_name": "Mixtral-8x22B-Instruct-v0.1 (fast)"
+            },
+            {
+                "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.4,
+                "output_price_per_million_tokens": 1.2,
+                "tokens_per_second": 25,
+                "input_tps": 41.22666667,
+                "max_model_len": 65536,
+                "model_type": "text2text",
+                "model_name": "Mixtral-8x22B-Instruct-v0.1"
+            }
+        ],
+        "vendor": "mistralai",
+        "quality": 78,
+        "context_window_k": 64,
+        "size_b": 141,
+        "tags": [
+            "64K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "complex_writing"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "dolphin-2.9.2-mixtral-8x22b",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9.2-mixtral-8x22b",
+        "flavors": [
+            {
+                "model_id": "cognitivecomputations/dolphin-2.9.2-mixtral-8x22b",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.4,
+                "output_price_per_million_tokens": 1.2,
+                "tokens_per_second": 18,
+                "input_tps": 42.84666667,
+                "max_model_len": 65536,
+                "model_type": "text2text",
+                "model_name": "dolphin-2.9.2-mixtral-8x22b"
+            }
+        ],
+        "vendor": "mistralai",
+        "quality": 78,
+        "context_window_k": 64,
+        "size_b": 141,
+        "tags": [
+            "64K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "complex_writing"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Qwen2.5-Coder-7B",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2.5-Coder-7B-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.03,
+                "output_price_per_million_tokens": 0.09,
+                "tokens_per_second": 125,
+                "input_tps": 274.5,
+                "max_model_len": 32768,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-Coder-7B (fast)"
+            },
+            {
+                "model_id": "Qwen/Qwen2.5-Coder-7B",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.01,
+                "output_price_per_million_tokens": 0.03,
+                "tokens_per_second": 70,
+                "input_tps": 97.484375,
+                "max_model_len": 32768,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-Coder-7B"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 74,
+        "context_window_k": 32,
+        "size_b": 7.62,
+        "tags": [
+            "32K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "code"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Qwen2.5-Coder-32B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.1,
+                "output_price_per_million_tokens": 0.3,
+                "tokens_per_second": 80,
+                "input_tps": 65,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-Coder-32B-Instruct (fast)"
+            },
+            {
+                "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.06,
+                "output_price_per_million_tokens": 0.18,
+                "tokens_per_second": 30,
+                "input_tps": 25,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-Coder-32B-Instruct"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 86,
+        "context_window_k": 128,
+        "size_b": 32.5,
+        "tags": [
+            "128K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "code"
+        ],
+        "license": {
+            "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct/blob/main/LICENSE",
+            "type": "",
+            "name": "Apache 2.0 License"
+        },
+        "fine_tune": {
+            "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+            "training_price_per_million_tokens": 2.8
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Qwen2.5-Coder-7B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2.5-Coder-7B-Instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.03,
+                "output_price_per_million_tokens": 0.09,
+                "tokens_per_second": 125,
+                "input_tps": 274.5,
+                "max_model_len": 32768,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-Coder-7B-Instruct (fast)"
+            },
+            {
+                "model_id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.01,
+                "output_price_per_million_tokens": 0.03,
+                "tokens_per_second": 70,
+                "input_tps": 97.484375,
+                "max_model_len": 32768,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-Coder-7B-Instruct"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 74,
+        "context_window_k": 32,
+        "size_b": 7.62,
+        "tags": [
+            "32K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "code"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "DeepSeek-Coder-V2-Lite-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+        "flavors": [
+            {
+                "model_id": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.08,
+                "output_price_per_million_tokens": 0.24,
+                "input_tps": 139.28125,
+                "tokens_per_second": 50,
+                "max_model_len": 128000,
+                "model_type": "text2text",
+                "model_name": "DeepSeek-Coder-V2-Lite-Instruct (fast)"
+            },
+            {
+                "model_id": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.04,
+                "output_price_per_million_tokens": 0.12,
+                "input_tps": 92.578125,
+                "tokens_per_second": 30,
+                "max_model_len": 128000,
+                "model_type": "text2text",
+                "model_name": "DeepSeek-Coder-V2-Lite-Instruct"
+            }
+        ],
+        "vendor": "deepseek",
+        "quality": 60,
+        "context_window_k": 128,
+        "size_b": 15.7,
+        "tags": [
+            "128K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "code"
+        ],
+        "license": {
+            "url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+            "type": "",
+            "name": "DeepSeek Licence"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Phi-3-mini-4k-instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+        "flavors": [
+            {
+                "model_id": "microsoft/Phi-3-mini-4k-instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.13,
+                "output_price_per_million_tokens": 0.4,
+                "tokens_per_second": 40,
+                "input_tps": 112.8125,
+                "max_model_len": 4096,
+                "model_type": "text2text",
+                "model_name": "Phi-3-mini-4k-instruct (fast)"
+            },
+            {
+                "model_id": "microsoft/Phi-3-mini-4k-instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.04,
+                "output_price_per_million_tokens": 0.13,
+                "tokens_per_second": 13,
+                "input_tps": 11.63333333,
+                "max_model_len": 4096,
+                "model_type": "text2text",
+                "model_name": "Phi-3-mini-4k-instruct"
+            }
+        ],
+        "vendor": "microsoft",
+        "quality": 70,
+        "context_window_k": 4,
+        "size_b": 3.82,
+        "tags": [
+            "4K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "fast_and_cost_efficient"
+        ],
+        "license": {
+            "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct/resolve/main/LICENSE",
+            "type": "",
+            "name": "MIT Licence"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Phi-3.5-mini-instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+        "flavors": [
+            {
+                "model_id": "microsoft/Phi-3.5-mini-instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.03,
+                "output_price_per_million_tokens": 0.09,
+                "tokens_per_second": 45,
+                "input_tps": 82.6,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Phi-3.5-mini-instruct"
+            }
+        ],
+        "vendor": "microsoft",
+        "quality": 70,
+        "context_window_k": 128,
+        "size_b": 3.82,
+        "tags": [
+            "128K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "fast_and_cost_efficient",
+            "summarization",
+            "context_and_rag"
+        ],
+        "license": {
+            "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct/resolve/main/LICENSE",
+            "type": "",
+            "name": "MIT Licence"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Phi-3.5-MoE-instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct",
+        "flavors": [
+            {
+                "model_id": "microsoft/Phi-3.5-MoE-instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.1,
+                "output_price_per_million_tokens": 0.3,
+                "tokens_per_second": 13,
+                "input_tps": 32.02,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Phi-3.5-MoE-instruct"
+            }
+        ],
+        "vendor": "microsoft",
+        "quality": 79,
+        "context_window_k": 128,
+        "size_b": 41.9,
+        "tags": [
+            "128K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag"
+        ],
+        "license": {
+            "url": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct/resolve/main/LICENSE",
+            "type": "",
+            "name": "MIT Licence"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Phi-3-medium-128k-instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/microsoft/Phi-3-medium-128k-instruct",
+        "flavors": [
+            {
+                "model_id": "microsoft/Phi-3-medium-128k-instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.15,
+                "output_price_per_million_tokens": 0.45,
+                "tokens_per_second": 60,
+                "input_tps": 264.4375,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Phi-3-medium-128k-instruct (fast)"
+            },
+            {
+                "model_id": "microsoft/Phi-3-medium-128k-instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.1,
+                "output_price_per_million_tokens": 0.3,
+                "tokens_per_second": 25,
+                "input_tps": 67.109375,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Phi-3-medium-128k-instruct"
+            }
+        ],
+        "vendor": "microsoft",
+        "quality": 70,
+        "context_window_k": 128,
+        "size_b": 3.82,
+        "tags": [
+            "128K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "fast_and_cost_efficient",
+            "summarization",
+            "context_and_rag"
+        ],
+        "license": {
+            "url": "https://huggingface.co/microsoft/Phi-3-medium-128k-instruct/blob/main/LICENSE",
+            "type": "",
+            "name": "MIT Licence"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "OLMo-7B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/allenai/OLMo-7B-Instruct-hf",
+        "flavors": [
+            {
+                "model_id": "allenai/OLMo-7B-Instruct-hf",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.08,
+                "output_price_per_million_tokens": 0.24,
+                "tokens_per_second": 25,
+                "input_tps": 42.65625,
+                "max_model_len": 2048,
+                "model_type": "text2text",
+                "model_name": "OLMo-7B-Instruct"
+            }
+        ],
+        "vendor": "allenai",
+        "quality": 46,
+        "context_window_k": 2,
+        "size_b": 6.89,
+        "tags": [
+            "2K context",
+            "small"
+        ],
+        "use_cases": [
+            "open_training_data"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "image2text",
+        "name": "llava-1.5-7b-hf",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/llava-hf/llava-1.5-7b-hf",
+        "flavors": [
+            {
+                "model_id": "llava-hf/llava-1.5-7b-hf",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.04,
+                "output_price_per_million_tokens": 0.12,
+                "tokens_per_second": 90,
+                "max_model_len": 4096,
+                "model_type": "image2text",
+                "model_name": "llava-1.5-7b-hf"
+            }
+        ],
+        "vendor": "Llava",
+        "quality": 70,
+        "context_window_k": 4,
+        "size_b": 1.5,
+        "tags": [],
+        "use_cases": [],
+        "license": {
+            "url": "https://github.com/haotian-liu/LLaVA/blob/main/LICENSE",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "image2text",
+        "name": "llava-1.5-13b-hf",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/llava-hf/llava-1.5-13b-hf",
+        "flavors": [
+            {
+                "model_id": "llava-hf/llava-1.5-13b-hf",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.04,
+                "output_price_per_million_tokens": 0.12,
+                "tokens_per_second": 70,
+                "max_model_len": 4096,
+                "model_type": "image2text",
+                "model_name": "llava-1.5-13b-hf"
+            }
+        ],
+        "vendor": "Llava",
+        "quality": 70,
+        "context_window_k": 4,
+        "size_b": 13,
+        "tags": [],
+        "use_cases": [],
+        "license": {
+            "url": "https://github.com/haotian-liu/LLaVA/blob/main/LICENSE",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "image2text",
+        "name": "Qwen2-VL-72B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2-VL-72B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.13,
+                "output_price_per_million_tokens": 0.4,
+                "tokens_per_second": 20,
+                "max_model_len": 32768,
+                "model_type": "image2text",
+                "model_name": "Qwen2-VL-72B-Instruct"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 64,
+        "context_window_k": 4,
+        "size_b": 72,
+        "tags": [],
+        "use_cases": [],
+        "license": {
+            "url": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct/blob/main/LICENSE",
+            "type": "",
+            "name": "Qwen License"
+        }
+    },
+    {
+        "type": "image2text",
+        "name": "Qwen2.5-VL-72B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2.5-VL-72B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.25,
+                "output_price_per_million_tokens": 0.75,
+                "tokens_per_second": 20,
+                "max_model_len": 32000,
+                "model_type": "image2text",
+                "model_name": "Qwen2.5-VL-72B-Instruct"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 73,
+        "context_window_k": 32,
+        "size_b": 72,
+        "tags": [],
+        "use_cases": [],
+        "license": {
+            "url": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct/blob/main/LICENSE",
+            "type": "",
+            "name": "Qwen License"
+        }
+    },
+    {
+        "type": "image2text",
+        "name": "Qwen2-VL-7B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2-VL-7B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.04,
+                "output_price_per_million_tokens": 0.12,
+                "tokens_per_second": 60,
+                "max_model_len": 32768,
+                "model_type": "image2text",
+                "model_name": "Qwen2-VL-7B-Instruct"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 54,
+        "context_window_k": 4,
+        "size_b": 7,
+        "tags": [],
+        "use_cases": [],
+        "license": {
+            "url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/blob/main/LICENSE",
+            "type": "",
+            "name": "Qwen License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Gemma-2-2b-it",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/google/gemma-2-2b-it",
+        "flavors": [
+            {
+                "model_id": "google/gemma-2-2b-it-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.03,
+                "output_price_per_million_tokens": 0.09,
+                "tokens_per_second": 155,
+                "max_model_len": 8192,
+                "model_type": "text2text",
+                "model_name": "Gemma-2-2b-it (fast)"
+            },
+            {
+                "model_id": "google/gemma-2-2b-it",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.02,
+                "output_price_per_million_tokens": 0.06,
+                "tokens_per_second": 80,
+                "max_model_len": 8192,
+                "model_type": "text2text",
+                "model_name": "Gemma-2-2b-it"
+            }
+        ],
+        "vendor": "google",
+        "quality": 51.3,
+        "context_window_k": 4,
+        "size_b": 2.61,
+        "tags": [
+            "4K context"
+        ],
+        "use_cases": [
+            "fast_and_cost_efficient"
+        ],
+        "policy_url": "https://ai.google.dev/gemma/terms",
+        "license": {
+            "url": "https://ai.google.dev/gemma/terms",
+            "type": "",
+            "name": "Gemma"
+        },
+        "fine_tune": {
+            "model_id": "google/gemma-2-2b-it",
+            "training_price_per_million_tokens": 0.4
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Gemma-2-9b-it",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/google/gemma-2-9b-it",
+        "flavors": [
+            {
+                "model_id": "google/gemma-2-9b-it-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.03,
+                "output_price_per_million_tokens": 0.09,
+                "tokens_per_second": 90,
+                "input_tps": 443.1875,
+                "max_model_len": 8192,
+                "model_type": "text2text",
+                "model_name": "Gemma-2-9b-it (fast)"
+            },
+            {
+                "model_id": "google/gemma-2-9b-it",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.02,
+                "output_price_per_million_tokens": 0.06,
+                "tokens_per_second": 50,
+                "input_tps": 104.421875,
+                "max_model_len": 8192,
+                "model_type": "text2text",
+                "model_name": "Gemma-2-9b-it"
+            }
+        ],
+        "vendor": "google",
+        "quality": 73,
+        "context_window_k": 8,
+        "size_b": 9.24,
+        "tags": [
+            "8K context"
+        ],
+        "use_cases": [
+            "fast_and_cost_efficient"
+        ],
+        "policy_url": "https://ai.google.dev/gemma/terms",
+        "license": {
+            "url": "https://ai.google.dev/gemma/terms",
+            "type": "",
+            "name": "Gemma"
+        },
+        "fine_tune": {
+            "model_id": "google/gemma-2-9b-it",
+            "training_price_per_million_tokens": 0.4
+        }
+    },
+    {
+        "type": "guard",
+        "name": "Meta-Llama-Guard-3-8B",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/meta-llama/Llama-Guard-3-8B",
+        "flavors": [
+            {
+                "model_id": "meta-llama/Llama-Guard-3-8B",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.02,
+                "output_price_per_million_tokens": 0.06,
+                "tokens_per_second": 118,
+                "input_tps": 224.0625,
+                "max_model_len": 131072,
+                "model_type": "guard",
+                "model_name": "Meta-Llama-Guard-3-8B"
+            }
+        ],
+        "vendor": "meta",
+        "context_window_k": 128,
+        "size_b": 8,
+        "tags": [
+            "128K context"
+        ],
+        "use_cases": [
+            "guardrails"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
+            "type": "",
+            "name": "Llama 3.1 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Meta-Llama-3.1-Nemotron-70B-Instruct-HF",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+        "flavors": [
+            {
+                "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.25,
+                "output_price_per_million_tokens": 0.75,
+                "tokens_per_second": 60,
+                "input_tps": 164.1875,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Meta-Llama-3.1-Nemotron-70B-Instruct-HF (fast)"
+            },
+            {
+                "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.13,
+                "output_price_per_million_tokens": 0.4,
+                "tokens_per_second": 25,
+                "input_tps": 41.984375,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Meta-Llama-3.1-Nemotron-70B-Instruct-HF"
+            }
+        ],
+        "vendor": "nvidia",
+        "quality": 86,
+        "context_window_k": 128,
+        "size_b": 70.6,
+        "tags": [
+            "128K context"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "code"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
+            "type": "",
+            "name": "Llama 3.1 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Gemma-27B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/google/gemma-2-27b-it",
+        "flavors": [
+            {
+                "model_id": "google/gemma-2-27b-it-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.17,
+                "output_price_per_million_tokens": 0.51,
+                "tokens_per_second": 49,
+                "input_tps": 249.6875,
+                "max_model_len": 8192,
+                "model_type": "text2text",
+                "model_name": "Gemma-27B-Instruct (fast)"
+            },
+            {
+                "model_id": "google/gemma-2-27b-it",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.1,
+                "output_price_per_million_tokens": 0.3,
+                "tokens_per_second": 21,
+                "input_tps": 72.21875,
+                "max_model_len": 8192,
+                "model_type": "text2text",
+                "model_name": "Gemma-27B-Instruct"
+            }
+        ],
+        "vendor": "google",
+        "quality": 75,
+        "context_window_k": 8,
+        "size_b": 27,
+        "tags": [
+            "8K context"
+        ],
+        "use_cases": [],
+        "policy_url": "https://ai.google.dev/gemma/terms",
+        "license": {
+            "url": "https://ai.google.dev/gemma/terms",
+            "type": "",
+            "name": "Gemma License"
+        },
+        "fine_tune": {
+            "model_id": "google/gemma-2-27b-it",
+            "training_price_per_million_tokens": 2.8
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Qwen2.5-32B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2.5-32B-Instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.13,
+                "output_price_per_million_tokens": 0.4,
+                "tokens_per_second": 65,
+                "input_tps": 244.1875,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-32B-Instruct (fast)"
+            },
+            {
+                "model_id": "Qwen/Qwen2.5-32B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.06,
+                "output_price_per_million_tokens": 0.2,
+                "tokens_per_second": 25,
+                "input_tps": 50.03125,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-32B-Instruct"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 86,
+        "context_window_k": 128,
+        "size_b": 32.5,
+        "tags": [
+            "128K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "code",
+            "function_calling"
+        ],
+        "license": {
+            "url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct/blob/main/LICENSE",
+            "type": "",
+            "name": "Apache 2.0 License"
+        },
+        "fine_tune": {
+            "model_id": "Qwen/Qwen2.5-32B-Instruct",
+            "training_price_per_million_tokens": 2.8
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Qwen2.5-1.5B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.02,
+                "output_price_per_million_tokens": 0.06,
+                "tokens_per_second": 84,
+                "input_tps": 235.7109375,
+                "max_model_len": 32768,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-1.5B-Instruct"
+            }
+        ],
+        "vendor": "Qwen",
+        "context_window_k": 128,
+        "size_b": 1.5,
+        "tags": [
+            "128K context",
+            "small"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "fast_and_cost_efficient"
+        ],
+        "license": {
+            "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/main/LICENSE",
+            "type": "",
+            "name": "Apache 2.0 License"
+        },
+        "fine_tune": {
+            "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+            "training_price_per_million_tokens": 0.4
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Qwen2.5-72B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+        "flavors": [
+            {
+                "model_id": "Qwen/Qwen2.5-72B-Instruct-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.25,
+                "output_price_per_million_tokens": 0.75,
+                "tokens_per_second": 60,
+                "input_tps": 153.5625,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-72B-Instruct (fast)"
+            },
+            {
+                "model_id": "Qwen/Qwen2.5-72B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.13,
+                "output_price_per_million_tokens": 0.4,
+                "tokens_per_second": 25,
+                "input_tps": 34.46875,
+                "supports_lora_adapters": true,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Qwen2.5-72B-Instruct"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 86,
+        "context_window_k": 128,
+        "size_b": 72.7,
+        "tags": [
+            "128K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "code",
+            "function_calling"
+        ],
+        "license": {
+            "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/blob/main/LICENSE",
+            "type": "",
+            "name": "Qwen License"
+        },
+        "fine_tune": {
+            "model_id": "Qwen/Qwen2.5-72B-Instruct",
+            "training_price_per_million_tokens": 2.8
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Llama3-OpenBioLLM-8B",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/aaditya/Llama3-OpenBioLLM-8B",
+        "flavors": [
+            {
+                "model_id": "aaditya/Llama3-OpenBioLLM-8B",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.02,
+                "output_price_per_million_tokens": 0.06,
+                "tokens_per_second": 60,
+                "input_tps": 168.5625,
+                "max_model_len": 8192,
+                "model_type": "text2text",
+                "model_name": "Llama3-OpenBioLLM-8B"
+            }
+        ],
+        "vendor": "meta",
+        "quality": 73,
+        "context_window_k": 8,
+        "size_b": 8.03,
+        "tags": [
+            "8K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "fast_and_cost_efficient"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
+            "type": "",
+            "name": "Llama 3.1 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Llama3-OpenBioLLM-70B",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B",
+        "flavors": [
+            {
+                "model_id": "aaditya/Llama3-OpenBioLLM-70B",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.13,
+                "output_price_per_million_tokens": 0.4,
+                "tokens_per_second": 16,
+                "input_tps": 55.828125,
+                "max_model_len": 8192,
+                "model_type": "text2text",
+                "model_name": "Llama3-OpenBioLLM-70B"
+            }
+        ],
+        "vendor": "meta",
+        "quality": 86,
+        "context_window_k": 8,
+        "size_b": 70.0,
+        "tags": [
+            "8K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "fast_and_cost_efficient"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
+            "type": "",
+            "name": "Llama 3.1 License"
+        }
+    },
+    {
+        "type": "embedding",
+        "name": "bge-multilingual-gemma2",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/BAAI/bge-multilingual-gemma2",
+        "flavors": [
+            {
+                "model_id": "BAAI/bge-multilingual-gemma2",
+                "label": "cheap",
+                "price_per_million_tokens": 0,
+                "input_price_per_million_tokens": 0.01,
+                "output_price_per_million_tokens": 0,
+                "tokens_per_second": 0,
+                "max_model_len": 4096,
+                "model_type": "embedding",
+                "model_name": "bge-multilingual-gemma2"
+            }
+        ],
+        "vendor": "BAAI",
+        "quality": 70,
+        "context_window_k": 8,
+        "size_b": 9.2,
+        "embedding_dimensions": 3584,
+        "tags": [
+            "8K context"
+        ],
+        "use_cases": [
+            "classification",
+            "multilingual"
+        ],
+        "policy_url": "https://ai.google.dev/gemma/terms",
+        "license": {
+            "url": "https://ai.google.dev/gemma/terms",
+            "type": "",
+            "name": "Gemma License"
+        }
+    },
+    {
+        "type": "embedding",
+        "name": "BGE-ICL",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/BAAI/bge-en-icl",
+        "flavors": [
+            {
+                "model_id": "BAAI/bge-en-icl",
+                "label": "cheap",
+                "price_per_million_tokens": 0,
+                "input_price_per_million_tokens": 0.01,
+                "output_price_per_million_tokens": 0,
+                "tokens_per_second": 0,
+                "max_model_len": 32768,
+                "model_type": "embedding",
+                "model_name": "BGE-ICL"
+            }
+        ],
+        "vendor": "BAAI",
+        "quality": 72,
+        "context_window_k": 32,
+        "size_b": 7.11,
+        "embedding_dimensions": 4096,
+        "tags": [
+            "32K context"
+        ],
+        "use_cases": [
+            "classification",
+            "clustering",
+            "retrieval"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "embedding",
+        "name": "e5-mistral-7b-instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct",
+        "flavors": [
+            {
+                "model_id": "intfloat/e5-mistral-7b-instruct",
+                "label": "cheap",
+                "price_per_million_tokens": 0,
+                "input_price_per_million_tokens": 0.01,
+                "output_price_per_million_tokens": 0,
+                "tokens_per_second": 0,
+                "max_model_len": 32768,
+                "model_type": "embedding",
+                "model_name": "e5-mistral-7b-instruct"
+            }
+        ],
+        "vendor": "intfloat",
+        "quality": 66,
+        "context_window_k": 32,
+        "size_b": 7.11,
+        "embedding_dimensions": 4096,
+        "tags": [
+            "32K context"
+        ],
+        "use_cases": [
+            "pair classification",
+            "reranking",
+            "multilabel classification"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+            "type": "",
+            "name": "MIT License"
+        }
+    },
+    {
+        "type": "text2image",
+        "name": "FLUX.1-schnell",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+        "flavors": [
+            {
+                "model_id": "black-forest-labs/flux-schnell",
+                "label": "cheap",
+                "price_per_image": 0.0013,
+                "performance_estimates": {
+                    "min_generation": 1.0479640028430703,
+                    "image_tps": 4392400
+                },
+                "defaults": {
+                    "num_inference_steps": 4
+                },
+                "parameter_constraints": {
+                    "num_inference_steps": {
+                        "min_value": 1,
+                        "max_value": 16
+                    }
+                },
+                "model_type": "text2image",
+                "model_name": "FLUX.1-schnell"
+            }
+        ],
+        "vendor": "Black Forest Labs",
+        "size_b": 12,
+        "tags": [],
+        "use_cases": [],
+        "license": {
+            "url": "https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-schnell",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "text2image",
+        "name": "FLUX.1-dev",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+        "flavors": [
+            {
+                "model_id": "black-forest-labs/flux-dev",
+                "label": "cheap",
+                "price_per_image": 0.007,
+                "performance_estimates": {
+                    "min_generation": 0.5487537736644494,
+                    "image_tps": 3682790
+                },
+                "defaults": {
+                    "num_inference_steps": 28
+                },
+                "parameter_constraints": {
+                    "num_inference_steps": {
+                        "min_value": 1,
+                        "max_value": 64
+                    }
+                },
+                "model_type": "text2image",
+                "model_name": "FLUX.1-dev"
+            }
+        ],
+        "vendor": "Black Forest Labs",
+        "size_b": 12,
+        "tags": [],
+        "use_cases": []
+    },
+    {
+        "type": "text2image",
+        "name": "Stable Diffusion XL 1.0",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "flavors": [
+            {
+                "model_id": "stability-ai/sdxl",
+                "label": "cheap",
+                "price_per_image": 0.003,
+                "performance_estimates": {
+                    "min_generation": 1.7322867998865779,
+                    "image_tps": 12446785
+                },
+                "defaults": {
+                    "num_inference_steps": 30
+                },
+                "parameter_constraints": {
+                    "num_inference_steps": {
+                        "min_value": 1,
+                        "max_value": 64
+                    }
+                },
+                "model_type": "text2image",
+                "model_name": "Stable Diffusion XL 1.0"
+            }
+        ],
+        "vendor": "Stability AI",
+        "size_b": 2.6,
+        "tags": [],
+        "use_cases": [],
+        "license": {
+            "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md",
+            "type": "",
+            "name": "CreativeML Open RAIL++-M"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Llama-3.2-1B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+        "flavors": [
+            {
+                "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.005,
+                "output_price_per_million_tokens": 0.01,
+                "tokens_per_second": 250,
+                "input_tps": 100,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Llama-3.2-1B-Instruct"
+            }
+        ],
+        "vendor": "meta",
+        "quality": 32,
+        "context_window_k": 128,
+        "size_b": 1,
+        "tags": [
+            "128K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_2/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
+            "type": "",
+            "name": "Llama 3.2 License"
+        },
+        "fine_tune": {
+            "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+            "training_price_per_million_tokens": 0.4
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Llama-3.2-3B-Instruct",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+        "flavors": [
+            {
+                "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.01,
+                "output_price_per_million_tokens": 0.02,
+                "tokens_per_second": 150,
+                "input_tps": 100,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Llama-3.2-3B-Instruct"
+            }
+        ],
+        "vendor": "meta",
+        "quality": 58,
+        "context_window_k": 128,
+        "size_b": 3,
+        "tags": [
+            "128K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "function_calling"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_2/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
+            "type": "",
+            "name": "Llama 3.2 License"
+        },
+        "fine_tune": {
+            "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+            "training_price_per_million_tokens": 0.4
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "QwQ-32B",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/QwQ-32B",
+        "flavors": [
+            {
+                "model_id": "Qwen/QwQ-32B",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.15,
+                "output_price_per_million_tokens": 0.45,
+                "tokens_per_second": 32,
+                "input_tps": 300,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "QwQ-32B"
+            },
+            {
+                "model_id": "Qwen/QwQ-32B-fast",
+                "label": "fast",
+                "input_price_per_million_tokens": 0.5,
+                "output_price_per_million_tokens": 1.5,
+                "tokens_per_second": 75,
+                "input_tps": 300,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "QwQ-32B (fast)"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 86,
+        "context_window_k": 131,
+        "size_b": 32.8,
+        "tags": [
+            "32K context",
+            "reasoning",
+            "code",
+            "math",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "code",
+            "context_and_rag"
+        ],
+        "license": {
+            "url": "https://huggingface.co/Qwen/QwQ-32B/blob/main/LICENSE",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "QwQ-32B-Preview",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/QwQ-32B-Preview",
+        "flavors": [
+            {
+                "model_id": "Qwen/QwQ-32B-Preview",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.09,
+                "output_price_per_million_tokens": 0.27,
+                "tokens_per_second": 55,
+                "input_tps": 71,
+                "max_model_len": 32768,
+                "model_type": "text2text",
+                "model_name": "QwQ-32B-Preview"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 80,
+        "context_window_k": 32,
+        "size_b": 32.8,
+        "tags": [
+            "32K context",
+            "reasoning",
+            "code",
+            "math",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "code",
+            "context_and_rag"
+        ],
+        "license": {
+            "url": "https://huggingface.co/Qwen/QwQ-32B-Preview/blob/main/LICENSE",
+            "type": "",
+            "name": "Apache 2.0 License"
+        }
+    },
+    {
+        "type": "image2text",
+        "name": "QVQ-72B-preview",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/Qwen/QVQ-72B-preview",
+        "flavors": [
+            {
+                "model_id": "Qwen/QVQ-72B-preview",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.2,
+                "output_price_per_million_tokens": 0.6,
+                "tokens_per_second": 42,
+                "input_tps": 72,
+                "max_model_len": 128000,
+                "model_type": "image2text",
+                "model_name": "QVQ-72B-preview"
+            }
+        ],
+        "vendor": "Qwen",
+        "quality": 81,
+        "context_window_k": 32,
+        "size_b": 73.4,
+        "tags": [
+            "32K context",
+            "reasoning"
+        ],
+        "use_cases": [],
+        "license": {
+            "url": "https://huggingface.co/Qwen/QVQ-72B-Preview/blob/main/LICENSE",
+            "type": "",
+            "name": "Qwen License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "phi-4",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/microsoft/phi-4",
+        "flavors": [
+            {
+                "model_id": "microsoft/phi-4",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.1,
+                "output_price_per_million_tokens": 0.3,
+                "tokens_per_second": 64,
+                "input_tps": 100,
+                "max_model_len": 16384,
+                "model_type": "text2text",
+                "model_name": "phi-4"
+            }
+        ],
+        "vendor": "microsoft",
+        "quality": 84,
+        "context_window_k": 16,
+        "size_b": 14.7,
+        "tags": [
+            "16K context",
+            "small",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "fast_and_cost_efficient",
+            "summarization",
+            "context_and_rag"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+            "type": "",
+            "name": "MIT Licence"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "Hermes-3-Llama-3.1-405B",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B",
+        "flavors": [
+            {
+                "model_id": "NousResearch/Hermes-3-Llama-405B",
+                "label": "cheap",
+                "input_price_per_million_tokens": 1.0,
+                "output_price_per_million_tokens": 3.0,
+                "tokens_per_second": 20,
+                "input_tps": 43.7,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "Hermes-3-Llama-3.1-405B"
+            }
+        ],
+        "vendor": "NousResearch",
+        "quality": 88,
+        "context_window_k": 128,
+        "size_b": 406,
+        "tags": [
+            "128K context",
+            "JSON mode"
+        ],
+        "use_cases": [
+            "summarization",
+            "context_and_rag",
+            "code",
+            "complex_writing"
+        ],
+        "policy_url": "https://llama.meta.com/llama3_1/use-policy/",
+        "license": {
+            "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
+            "type": "",
+            "name": "Llama 3.1 License"
+        }
+    },
+    {
+        "type": "text2text",
+        "name": "DeepSeek-R1-Distill-Llama-70B",
+        "status": "active",
+        "logo_url": "",
+        "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        "flavors": [
+            {
+                "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+                "label": "cheap",
+                "input_price_per_million_tokens": 0.25,
+                "output_price_per_million_tokens": 0.75,
+                "tokens_per_second": 49,
+                "input_tps": 72,
+                "max_model_len": 131072,
+                "model_type": "text2text",
+                "model_name": "DeepSeek-R1-Distill-Llama-70B"
+            }
+        ],
+        "vendor": "deepseek",
+        "quality": 78,
+        "context_window_k": 128,
+        "size_b": 70,
+        "tags": [
+            "128K context",
+            "reasoning"
+        ],
+        "use_cases": [
+            "context_and_rag",
+            "code"
+        ],
+        "license": {
+            "url": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+            "type": "",
+            "name": "MIT License"
+        }
+    }
+]
